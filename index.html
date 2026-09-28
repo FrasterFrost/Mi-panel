@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Panel del Navegador</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main class="panel">
+
+        <h1 id="titulo">🚀 Mi Panel del Navegador</h1>
+
+        <section>
+            <h2>👋 Bienvenido</h2>
+            <p id="saludo"></p>
+        </section>
+
+        <section>
+            <h2>🖥️ Información de la ventana</h2>
+            <p id="ancho-ventana"></p>
+            <p id="alto-ventana"></p>
+        </section>
+
+        <section>
+            <h2>🌐 Información del navegador</h2>
+            <p id="idioma"></p>
+            <p id="conexion"></p>
+        </section>
+
+        <section>
+            <h2>📍 Ubicación</h2>
+
+            <button id="btn-ubicacion">
+                📍 Obtener mi ubicación
+            </button>
+
+            <div id="ubicacion"></div>
+        </section>
+
+        <section>
+            <h2>⚙️ Acciones</h2>
+
+            <button id="btn-modo">
+                🌙 Cambiar modo
+            </button>
+
+            <button id="btn-recargar">
+                🔄 Recargar página
+            </button>
+
+            <button id="btn-informacion">
+                ℹ️ Información
+            </button>
+        </section>
+
+        <section id="informacion-sitio"></section>
+
+    </main>
+    <footer>
+        <p>© 2024 Mi Panel del Navegador. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
